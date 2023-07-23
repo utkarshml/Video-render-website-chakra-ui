@@ -5,22 +5,20 @@ import Home from "./components/Home"
 import About from "./components/About"
 import Footer from './components/Footer'
 import Video from "./components/Video"
+import Login from './components/Login'
+import Signup from './components/Signup'
 function App() {
   return (
    <Router>
     <Header/>
     <Routes>
           <Route path="/" element={<Home/>} />
-            </Routes>
-        <Routes>
           <Route path="/home" element={<Home/>} />
-            </Routes>
-            <Routes>
           <Route path="/about" element={<About/>} />
-            </Routes>
-            <Routes>
           <Route path="/video" element={<Video/>} />
-            </Routes>
+          <Route path='/login' element={<Login />}/>
+          <Route path='/Signup' element={<Signup />}/>
+          </Routes>
           <Footer />
    </Router>
   )
