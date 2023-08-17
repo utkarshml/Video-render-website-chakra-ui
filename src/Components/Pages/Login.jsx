@@ -1,11 +1,9 @@
 import {
-  Box,
   Container,
   Heading,
   Input,
   Button,
   InputGroup,
-  TagLabel,
   Text,
   VStack,
   InputRightElement,

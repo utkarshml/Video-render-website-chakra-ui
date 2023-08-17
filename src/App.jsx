@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter as Router , Route , Routes } from "react-router-dom"
-import Header from "./components/Header"
-import Home from "./components/Home"
-import About from "./components/About"
-import Footer from './components/Footer'
-import Video from "./components/Video"
-import Login from './components/Login'
-import Signup from './components/Signup'
+import Header from "./Components/Layout/Header"
+import Home from "./Components//Pages/Home"
+import About from "./Components/Pages/About"
+import Footer from './Components/Layout/Footer'
+import Video from "./Components/Pages/Video"
+import Login from './Components/Pages/Login'
+import Signup from './Components/Pages/Signup'
 function App() {
   return (
    <Router>
