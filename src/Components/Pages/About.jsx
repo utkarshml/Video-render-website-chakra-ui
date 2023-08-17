@@ -1,6 +1,6 @@
 import { Box, Heading, Img  , Text , Button} from '@chakra-ui/react'
 import React from 'react'
-import aboutimg from "../assets/img/5024147-removebg-preview.png"
+import aboutimg from "../../assets/Images/5024147-removebg-preview.57a6b1abb389e2657215.png"
 
 function About() {
   return (
